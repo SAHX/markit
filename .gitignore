@@ -1,0 +1,12 @@
+.DS_Store
+node_modules/
+npm-debug.log
+# IDE config
+.idea
+
+app/views/*
+app/routers.js
+app/link.json
+#pages/*
+
+

@@ -1,0 +1,43 @@
+{
+  "name": "markit",
+  "version": "1.0.0",
+  "description": "Markit is a bolg build with markdown files",
+  "scripts": {
+    "build": "webpack",
+    "server": "http-server www"
+  },
+  "author": {
+    "name": "SAHX",
+    "email": "tangjiang69@163.com"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "moment": "^2.18.1",
+    "vue": "^2.2.6",
+    "vue-router": "^2.5.0",
+    "vuex": "^2.3.0"
+  },
+  "devDependencies": {
+    "babel-cli": "6.x.x",
+    "babel-core": "6.x.x",
+    "babel-loader": "^6.2.1",
+    "babel-plugin-transform-runtime": "6.x.x",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-es2015-loose": "6.x.x",
+    "babel-preset-stage-1": "6.x.x",
+    "babel-runtime": "^6.3.19",
+    "cheerio": "^0.22.0",
+    "cross-env": "^4.0.0",
+    "css-loader": "^0.28.0",
+    "file-loader": "^0.11.1",
+    "html-loader": "^0.4.5",
+    "html-webpack-plugin": "^2.28.0",
+    "http-server": "^0.10.0",
+    "markdown-loader": "^2.0.0",
+    "vue-loader": "^11.3.4",
+    "vue-template-compiler": "^2.2.6",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-merge": "^4.1.0"
+  }
+}
