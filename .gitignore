@@ -7,6 +7,7 @@ npm-debug.log
 app/views/*
 app/routers.js
 app/link.json
+www/
 #pages/*
 
 

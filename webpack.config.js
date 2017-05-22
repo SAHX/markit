@@ -9,7 +9,7 @@ module.exports = {
         main: path.join(__dirname, '/app/main.js')
     },
     output: {
-        filename: '[name].js',
+        filename: '[name].[chunkhash].js',
         publicPath: '/static/',
         path: path.join(__dirname, 'www/static')
     },
